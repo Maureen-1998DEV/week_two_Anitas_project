@@ -1,10 +1,10 @@
 body {
     margin: auto;
 }
-/*Section 1 Styles: Modal and Logo */
+/*Partone Styles: logo and background Logo */
 
-.section1 {
-    background-image: url("../assets/backgrounds/landing.jpg");
+.partone {
+    background-image: url("Assets/landing.jpg");
     background-size: cover;
     overflow: hidden;
     margin-left: -10%;
@@ -60,24 +60,24 @@ body {
 .boldSlogan {
     font-weight: bold;
 }
-/*Section 2 files*/
+/*parttwo files*/
 
-.section2 {
+.row {
     margin-left: -10%;
     margin-right: -10%;
     text-align: center;
     color: white;
     font-style: italic;
     font-size: 20px;
-}
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
 
-@media (min-width: 992px) {
-    .col-md-3 {
-        padding-left: 0;
-        padding-right: 0;
-    }
 }
-
+.hp{
+    display: flex;
+    flex-direction: column;
+}
 .happyhour {
     padding-top: 41px;
     padding-bottom: 45px;
@@ -92,19 +92,19 @@ body {
 }
 
 #breakfast {
-    background-image: url("../assets/foodtop/breakfast.jpg");
+    background-image: url("Assets/breakfast.jpg");
     background-size: cover;
     padding: 100px;
 }
 
 #lunch {
-    background-image: url("../assets/foodtop/lunch.jpg");
+    background-image: url("Assets/lunch.jpg");
     background-size: cover;
     padding: 100px;
 }
 
 #dinner {
-    background-image: url("../assets/foodtop/dinner.jpg");
+    background-image: url("Assets/dinner.jpg");
     background-size: cover;
     padding: 100px;
 }
@@ -117,9 +117,9 @@ body {
     filter: alpha(opacity=70);
     /* For IE8 and earlier */
 }
-/*Section 3 Styles*/
+/*part3 Styles*/
 
-.section3 {
+.part3 {
     padding: 50px;
 }
 
@@ -139,12 +139,19 @@ body {
 .drinksInfo>h4 {
     font-weight: bold;
 }
+.RowftFood{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 40px;
+}
 
-.fastFoodPhotos,
-.drinksInfoPhotos {
+
+.fastfood2,
+.drinksPhotos {
     padding: 20px;
     border: 2px solid rgba(211, 211, 211, 0.44);
     box-shadow: 2px 2px 7px 2px rgba(0, 0, 0, 0.14);
+    
 }
 
 .fastFoodPhotos>img,
@@ -152,9 +159,18 @@ body {
     margin: auto;
     text-align: center;
 }
+.drinksPhotos{
+    display: flex;
+
+}
 
 .drinksInfoPhoto2 {
     float: right;
+}
+.drinks{
+    display: flex;
+    flex-direction: row;
+    
 }
 
 button {
@@ -164,19 +180,25 @@ button {
     color: #f15a29;
     border: 1px solid #f15a29;
 }
-/*Section 4 Styles*/
+/*part4 Styles*/
 
-.section4 {
+.part4 {
     margin-left: -10%;
     margin-right: -10%;
     text-align: center;
-    background-image: url("../assets/backgrounds/foodsBg.jpg");
+    background-image: url("Assets/foodsBg.jpg");
     background-size: cover;
     background-attachment: scroll;
     background-clip: border-box;
     background-position: center;
     background-repeat: no-repeat;
     padding: 70px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 .nav-list {
@@ -187,6 +209,7 @@ button {
 .nav-tabs {
     background-color: lightgrey;
     font-size: 16px;
+    margin-bottom: -0.1px;
 }
 
 .nav-tabs>.active {
@@ -197,6 +220,8 @@ button {
 .nav-tabs li {
     border-right: 1px solid #777;
     border-bottom: 1px solid #777;
+    padding: 25px 100px 25px 100px;
+    text-align: center;
 }
 
 a {
@@ -215,6 +240,9 @@ a {
 
 .carousel-inner {
     padding: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 .item {
@@ -233,7 +261,7 @@ a {
 }
 /* Section 5 Styles*/
 
-.section5>.row {
+.part5>.row {
     width: 80%;
     margin: 50px auto;
     border: 2px solid #ddd;
@@ -302,9 +330,9 @@ a {
 }
 /*Section 6 Styles*/
 
-.section6 {
+.part6 {
     text-align: center;
-    background-image: url("../assets/backgrounds/subscribe.jpg");
+    background-image: url("Assets/subscribe.jpg");
     background-size: cover;
     overflow: hidden;
     color: white;
@@ -319,13 +347,13 @@ a {
     margin: auto;
 }
 
-.section6 p {
+.part6 p {
     font-size: 30px;
 }
 
 input[type=email] {
     background-color: rgba(255, 255, 255, 0.4);
-    font-size: 16px;
+    font-size: 30px;
 }
 
 input[type=button] {
@@ -362,8 +390,8 @@ input[type=button] {
 }
 /*Section 7 Styles: Footer*/
 
-.section7 {
-    background-color: #f15a29;
+.part7 {
+    background-color: #F15A29;
     margin-left: -10%;
     margin-right: -10%;
 }
@@ -373,7 +401,7 @@ input[type=button] {
     margin: auto;
     padding-top: 100px;
     padding-bottom: 40px;
-    color: white;
+    color: black;
     font-size: 20px;
     text-align: center;
 }
@@ -398,3 +426,5 @@ input[type=button] {
 }
 
 
+
+   
