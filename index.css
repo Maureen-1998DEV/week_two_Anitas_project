@@ -10,45 +10,6 @@ body {
     margin-left: -10%;
     margin-right: -10%;
 }
-/*Modal Section Styles */
-
-.menulines {
-    z-index: 2;
-    padding-left: 80px;
-}
-
-.menulines .btn {
-    color: white;
-    background-color: transparent;
-    font-size: 30px;
-    padding: 0px;
-}
-
-.fa {
-    /*horizontal lines icon*/
-    width: 25px;
-    height: 25px;
-}
-
-.modal {
-    background-color: #F15A29;
-}
-
-.fade.in {
-    opacity: 0.8;
-}
-
-.modal-body,
-.modal-title {
-    font-size: 20px;
-}
-
-.modal-footer .btn {
-    font-size: 20px;
-    color: black;
-}
-/*Logo and Slogan Styles */
-
 .logo {
     padding: 150px;
     z-index: 1;
@@ -108,17 +69,6 @@ body {
     background-size: cover;
     padding: 100px;
 }
-
-#dinner:hover,
-#lunch:hover,
-#breakfast:hover {
-    color: #F15A29;
-    opacity: 0.7;
-    filter: alpha(opacity=70);
-    /* For IE8 and earlier */
-}
-/*part3 Styles*/
-
 .part3 {
     padding: 50px;
 }
@@ -164,7 +114,7 @@ body {
 
 }
 
-.drinksInfoPhoto2 {
+.drinksPhoto2 {
     float: right;
 }
 .drinks{
@@ -255,18 +205,19 @@ a {
     color: #f15a19;
 }
 
-.carousel-control.left,
+.carousel-control.left,5
 .carousel-control.right {
     background-image: none;
 }
-/* Section 5 Styles*/
 
-.part5>.row {
+
+.part5>.row2 {
     width: 80%;
     margin: 50px auto;
     border: 2px solid #ddd;
     box-shadow: 0px 0px 5px lightgrey;
     padding: 40px;
+    display: flex;
 }
 
 .customers {
@@ -426,5 +377,3 @@ input[type=button] {
 }
 
 
-
-   
