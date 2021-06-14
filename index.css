@@ -66,10 +66,6 @@ body {
     width: 25%;
 }
 
-.breakfast h3, .lunch h3, .dinner h3 {
-    margin-top: 80px;
-}
-
 .lunch {
     width: 25%;
     background-image: url('Assets/lunch.jpg');
@@ -120,19 +116,19 @@ body {
 #breakfast {
     background-image: url("Assets/breakfast.jpg");
     background-size: cover;
-    padding: 100px;
+    padding: 200px;
 }
 
 #lunch {
     background-image: url("Assets/lunch.jpg");
     background-size: cover;
-    padding: 100px;
+    padding: 200px;
 }
 
 #dinner {
     background-image: url("Assets/dinner.jpg");
     background-size: cover;
-    padding: 100px;
+    padding: 200px;
 }
 .part3 {
     padding: 50px;
@@ -233,7 +229,7 @@ ul{
 }
 
 .nav-list {
-    width: 80%;
+    width: 48%;
     margin: auto;
 }
 
@@ -270,24 +266,24 @@ a {
 }
 
 .Fast_Food_Caros {
-    padding: 25px;
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: row;
+    padding: 25px;
     color: #f15a29;
 }
-/* .item */
-
-
 
 .item {
     float: left;
     margin: 10px; 
-    display:flex;
 }
 
 .carousel-control {
     opacity: 1;
     color: #f15a19;
+}
+.happycustomers>h4,>h5{
+    color: #F15A29;
+
 }
 
 .happycustomers {
@@ -335,6 +331,7 @@ a {
     display: flex;
     /* justify-content: ; */
 }
+.happycustomers
 
 .about {
     padding: 20px;
