@@ -21,6 +21,64 @@ body {
 .boldSlogan {
     font-weight: bold;
 }
+
+/* Homepage menu */
+
+.home_page_menu {
+    display: flex;
+    text-align: center;
+    height: 196px;
+    margin-bottom: 80px;
+
+}
+
+.home_page_menu h3 {
+    /* padding-top: 40px; */
+    font-size: 30px;
+    color: white;
+}
+.happy {
+    background-color: rgb(196, 190, 190);
+    padding: 2px;
+}
+
+.party {
+    background-color: #F15A29;
+    padding: 2px;
+}
+
+.happy_party {
+    width: 25%;
+    
+}
+.breakfast {
+    background-image: url('Assets/breakfast.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 25%;
+}
+
+.breakfast h3, .lunch h3, .dinner h3 {
+    margin-top: 80px;
+}
+
+.lunch {
+    width: 25%;
+    background-image: url('Assets/lunch.jpg');
+        background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.5;
+}
+
+.dinner {
+    width: 25%;
+    background-image: url('Assets/dinner.jpg');
+        background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
 /*parttwo files*/
 
 .row {
