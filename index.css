@@ -1,7 +1,8 @@
 body {
     margin: auto;
 }
-/*Partone Styles: logo and background Logo */
+
+
 
 .partone {
     background-image: url("Assets/landing.jpg");
@@ -10,12 +11,18 @@ body {
     margin-left: -10%;
     margin-right: -10%;
 }
-.logo {
+.top {
     padding: 150px;
     z-index: 1;
     text-align: center;
     color: white;
     font-size: 20px;
+    
+}
+.demo {
+    /* display: flex; */
+    margin-left: -1700px;
+    font-size: 100px;
 }
 
 .boldSlogan {
@@ -129,6 +136,7 @@ body {
 }
 .part3 {
     padding: 50px;
+    
 }
 
 .fastFood {
@@ -146,7 +154,14 @@ body {
 .drinksInfo>h3,
 .drinksInfo>h4 {
     font-weight: bold;
+
+}.fastFood p {
+    margin-right: 500px;
 }
+.DRINKS {
+    margin-left: 300px;
+}
+
 .RowftFood{
     display: flex;
     flex-direction: row;
@@ -154,8 +169,16 @@ body {
 }
 
 
-.fastfood2,
+.fastfood2{
+    margin-left: 300px;
+    padding: 20px;
+    border: 2px solid rgba(211, 211, 211, 0.44);
+    box-shadow: 2px 2px 7px 2px rgba(0, 0, 0, 0.14);
+
+
+}
 .drinksPhotos {
+    margin-right: 300px;
     padding: 20px;
     border: 2px solid rgba(211, 211, 211, 0.44);
     box-shadow: 2px 2px 7px 2px rgba(0, 0, 0, 0.14);
@@ -246,18 +269,20 @@ a {
     background-color: white;
 }
 
-.carousel-inner {
+.Fast_Food_Caros {
     padding: 25px;
     display: flex;
-    flex-direction: row;
     justify-content: space-evenly;
+    color: #f15a29;
 }
+/* .item */
+
+
 
 .item {
     float: left;
     margin: 10px; 
     display:flex;
-    flex
 }
 
 .carousel-control {
@@ -265,11 +290,14 @@ a {
     color: #f15a19;
 }
 
-.carousel-control.left,5
-.carousel-control.right {
-    background-image: none;
+.happycustomers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
 }
-
 
 .part5>.row2 {
     width: 80%;
@@ -290,14 +318,22 @@ a {
     color: #f15a29;
     font-weight: bold;
 }
-
-.item2>.item1>img {
-    margin: auto;
+.item1 {
+    margin-top: 20px;
 }
+/* .item2>.item1>img {
+    
+} */
 
 .item h5 {
-    margin-top: 1px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
 
+}
+.item2{
+    display: flex;
+    /* justify-content: ; */
 }
 
 .about {
