@@ -1,7 +1,7 @@
 body {
     margin: auto;
 }
-
+/*Partone Styles: logo and background Logo */
 
 .partone {
     background-image: url("Assets/landing.jpg");
@@ -173,7 +173,8 @@ ul{
     padding: 25px 100px 25px 100px;
     text-align: center;
 }
-a{
+
+a {
     color: black;
 }
 
@@ -196,8 +197,22 @@ a{
 
 .item {
     float: left;
-    margin: 10px;
+    margin: 10px; 
+    display:flex;
+    flex
 }
+
+.carousel-control {
+    opacity: 1;
+    color: #f15a19;
+}
+
+.carousel-control.left,5
+.carousel-control.right {
+    background-image: none;
+}
+
+
 .part5>.row2 {
     width: 80%;
     margin: 50px auto;
@@ -218,23 +233,27 @@ a{
     font-weight: bold;
 }
 
+.item2>.item1>img {
+    margin: auto;
+}
 
 .item h5 {
     margin-top: 1px;
-}
 
+}
 
 .about {
     padding: 20px;
     text-align: center;
     border-left: 2px solid #ddd;
+
 }
 
 .about>h4 {
     color: #f15a29;
     font-weight: bold;
 }
-/*Section 6 Styles*/
+
 
 .part6 {
     text-align: center;
@@ -286,15 +305,11 @@ input[type=button] {
     color: white;
 }
 
-#output {
-    font-size: 20px;
-}
-
 .footer .fa {
     margin-right: 15px;
     margin-left: 15px;
 }
-/*Section 7 Styles: Footer*/
+
 
 .part7 {
     background-color: #F15A29;

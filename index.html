@@ -14,9 +14,20 @@
 <body>
     <div class="container">
         <!--partone the Logo and three lines--->
-        <div class="partone>
+        <div class="partone">
+            <!-- Trigger the modal with a button -->
+            <div class="menulines">
+                <button type="button" class="btn" data-toggle="modal" data-target="#menuModal"><i class="fa fa-bars fa-lg" aria-hidden="true" ></i></button>
+        
+                <div id="menuModal" class="modal fade" role="dialog">
+                    <div class="modal-dialog modal-lg">
+            
+                       
+                    </div>
+                </div>
+            </div>
             <div class="logo">
-                <img src="Assets/logoBig.png" alt="Restaurant Logo">
+                <img src="Assets/logoBig.png" alt="Company Logo">
                 <p>We Provide The Best Food <br /> At The <span class="boldSlogan">Right Price</span></p>
             </div>
         </div>
@@ -68,7 +79,9 @@
 
                 <div class="drinksPhotos">
                     <img src="Assets/drink1.jpg" alt="Photo of Drink">
-                    <img src="Assets/drink2 (1).jpg" alt="Photo of Drink" class="drinksInfoPhoto2">
+                          <div class="drinkPhoto2">
+                    <img src="Assets/drink2 (1).jpg" alt="Photo of Drink" >
+                    </div>
                 </div>
             </div>
         </div>
@@ -105,29 +118,30 @@
         </div>
         <!-- Section 5 includes testimonials from customers as a slideshow and information about the menu-->
         <div class="part5">
-            <div class="row">
-                <div class="col-md-8 customers">
+            <div class="row2">
+                <div class="happycustomers">
                     <h4>Our happy customers</h4>
                     <div id="testimonials" class="carousel" data-ride="carousel">
-                        <div class="ITEM3">
+                        <div class="item1">
                             <div class="item 2">
                                 <h5>George Richard</h5>
                                 <p>Great food! Menu is awesome, their foods are not only great but also have great pricing. I'll highly recommend them:)</p>
-                                <div>
-                                <img src="Assets/p2.png" alt="Customer 1">
-                                </div>
-                            </div>
-                            <div class="item ">
-                                <img src="Assets/p1.png" alt="Customer 2">
-                            </div>
-                            <div class="item ">
+                                <div class="item">
+                                <img src="Assets/p1.png" alt="Customer 1">
+                            
+                            
+                            
+                                <img src="Assets/p2.png" alt="Customer 2">
+                        
+                            
                                 <img src="Assets/p3.png" alt="Customer 3">
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div class=" about">
+                <div class="col-md-4 about">
                     <h4>About Menu</h4>
                     <p>We are a small team of 7 members. Ut wisi ad  miniem, qis nos tredex ci tation ulimcorper susciit lob ortis nisi aliquio ex ea commodo conse quat. Duasiau tem eum inure dolor in .</p>
 
@@ -150,7 +164,7 @@
                 </form>
             </div>
         </div>
-        <!-- Section 7 includes the website footer-->
+        <!-- part7ncludes the website footer-->
         <div class="part7">
             <div class="footer">
                 <h5>
